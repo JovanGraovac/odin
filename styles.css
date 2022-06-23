@@ -1,0 +1,403 @@
+* {
+    font-family: Open Sans,Helvetica Neue,Helvetica,Arial,sans-serif;
+    
+}
+
+.header {
+    height: 59px;
+    width: 1216px;
+    /*border: 1px solid black;*/
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo p {
+    gap: 5px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+
+.nav  {
+    /*border: 1px solid black;*/
+    display: inline-flex;
+    align-items: center;
+}
+
+.nav a {
+    /*border: 1px solid black;*/
+    margin-left: 30px;
+    color: gray;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.nav button {
+    margin-left: 30px;
+    border-radius: 7px;
+    color: white;
+    background-color: rgb(99,191,196);
+    padding: 15px;
+    border: none;
+    font-size: 18px;
+}
+
+.empty {
+    height: 70px;
+}
+
+.header_1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}    
+
+.header_1 h1 {
+   font-weight: 100;
+}
+
+.header_1 button {
+    margin-top: 70px;
+    border-radius: 7px;
+    color: white;
+    background-color: rgb(99,191,196);
+    padding: 15px;
+    border: none;
+    font-size: 18px;
+}
+
+.how-it-works {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /*border: 1px solid black; */
+}
+
+.hiw-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    width: 600px;
+}
+
+.lbc p {
+    color: gray;
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+}
+
+.lbc div {
+    width: 300px; 
+    text-align: center;  
+}
+
+.lbc {
+    display: flex;
+    justify-content: center; 
+    gap: 100px;
+}
+
+.what_u_learn {
+    background-color: #f3f3f3;    
+}
+
+.what_u_learn h2 {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.ruby img {
+    width: 160px;
+    height: 160px;
+}
+
+.databases img {
+    width: 160px;
+    height: 160px;
+}
+
+.ruby_on_rails img {
+    width: 160px;
+    height: 160px; 
+}
+
+.ruby {
+    /*border: 1px solid black;*/
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    background-color: white;
+    padding-top: 40px;
+}
+
+.databases {
+    /*border: 1px solid black;*/
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    background-color: white;
+    padding-top: 40px;
+}
+
+.ruby_on_rails {
+    /*border: 1px solid black;*/
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    background-color: white;
+    padding-top: 40px;
+}
+
+.ruby-data-rails {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    
+}
+
+.empty_what_u_learn {
+    height: 50px;
+}
+
+.inter-java-advanced {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.intermediate img {
+    width: 160px;
+    height: 160px; 
+}
+
+.intermediate {
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    background-color: white;
+    padding-top: 40px;
+}
+
+.javascript img {
+    width: 160px;
+    height: 160px; 
+}
+
+.javascript {
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    background-color: white;
+    padding-top: 40px; 
+}
+
+.advanced img {
+    width: 160px;
+    height: 160px;
+}
+
+.advanced {
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    background-color: white;
+    padding-top: 40px;
+}
+
+.nodejs_hired {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.nodejs img{
+    width: 160px;
+    height: 160px;
+}
+
+.nodejs {
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    background-color: white;
+    padding-top: 40px;
+}
+
+.hired img {
+    width: 160px;
+    height: 160px;
+}
+
+.hired {
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    background-color: white;
+    padding-top: 40px;
+}
+
+.button_what_u_learn {
+    text-align: center;    
+}
+
+.button_what_u_learn button {
+    background-color: rgb(206,151,62);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 0.375rem;
+    font-size: 1rem;
+    color: white;
+    border: none;
+}
+
+.students img {
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    margin-top: 45px ;
+}
+
+.rob_cody {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.rob {
+    display: flex;
+}
+
+.text_rob {
+    width: 550px;
+    padding-left: 15px ;
+}
+
+.cody {
+    display: flex;
+}
+
+.text_cody {
+    width: 550px;
+    padding-left: 15px ;
+}
+
+.andrej_skip {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.andrej {
+    display: flex;
+}
+
+.skip {
+    display: flex;
+}
+
+.text_andrej {
+    width: 550px;
+    padding-left: 15px ;
+}
+
+.text_skip {
+    width: 550px;
+    padding-left: 15px ;
+}
+
+.read_more {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.read_more_button button {
+    background-color: rgb(99,191,196);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 0.375rem;
+    font-size: 1rem;
+    color: white;
+    border: none;
+}
+
+.read_more_button {
+    display: flex;
+    justify-content: center;
+}
+
+.mail_logo {
+    display: flex;
+}
+
+.mail {
+    margin-left: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.start_input {
+    display: flex;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 52px;
+    width: 450px;
+    justify-content: space-between;
+    background-color: white;
+    
+}
+
+.start_learning {
+    width: 530px;
+    height: 200px;
+    background-color: #f3f3f3;
+    padding-top: 30px;
+    padding-left: 15px;
+    border-radius: 20px;
+    margin-right: 300px;
+}
+
+.start_learning button {
+    background-color: rgb(99,191,196);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 0.375rem;
+    font-size: 1rem;
+    color: white;
+    border: none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.start_learning input {
+    flex: 3;
+    border-radius: 10px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;    
+}
+
+.footer_nav {
+    display: flex;
+    gap: 50px;
+    margin-right: 300px;
+}
