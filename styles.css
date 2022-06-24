@@ -401,3 +401,26 @@
     gap: 50px;
     margin-right: 300px;
 }
+
+@media screen and (max-width: 755px) {
+    .lbc {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav {
+        flex-direction: row;
+    }
+
+    .ruby-data-rails, .inter-java-advanced, .nodejs_hired, .rob_cody, .andrej_skip {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .mail {
+        display: flex;
+        justify-content: flex-start;
+    }
+}
